@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Memoify — Share to Memoify",
+  "version": "0.1.0",
+  "description": "Right-click to send a page, link, selection, or image to Memoify.",
+  "permissions": ["contextMenus"],
+  "host_permissions": ["https://memoify.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Share to Memoify" }
+}
